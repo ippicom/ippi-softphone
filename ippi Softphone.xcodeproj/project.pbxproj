@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED1DEB72F4331C100DF2733 /* linphonesw in Frameworks */ = {isa = PBXBuildFile; productRef = 5ED1DEB62F4331C100DF2733 /* linphonesw */; };
+		5ED1DEC12F43D54000DF2733 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1DEC02F43D54000DF2733 /* Localizable.xcstrings */; };
+		5ED1DEC72F44587700DF2733 /* PhoneNumberKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5ED1DEC62F44587700DF2733 /* PhoneNumberKit */; };
+		5ED1DECB2F4499C800DF2733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1DECA2F4499C800DF2733 /* LaunchScreen.storyboard */; };
+		5EFF86652F4642A90090F8B0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1DEC02F43D54000DF2733 /* Localizable.xcstrings */; };
+		5EFF86662F4643170090F8B0 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5EFF865C2F463FB30090F8B0 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5EFF8CAC2F4A08D90090F8B0 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5EFF8CAB2F4A08D90090F8B0 /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED1DE442F4326DA00DF2733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1DE2E2F4326D900DF2733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED1DE352F4326D900DF2733;
+			remoteInfo = "ippi Softphone";
+		};
+		5ED1DE4E2F4326DA00DF2733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1DE2E2F4326D900DF2733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED1DE352F4326D900DF2733;
+			remoteInfo = "ippi Softphone";
+		};
+		5EFF86672F4643170090F8B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1DE2E2F4326D900DF2733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFF865B2F463FB30090F8B0;
+			remoteInfo = NotificationServiceExtension;
+		};
+		5EFF866A2F46432E0090F8B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED1DE2E2F4326D900DF2733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EFF865B2F463FB30090F8B0;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EFF86692F4643170090F8B0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5EFF86662F4643170090F8B0 /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5ED1DE362F4326D900DF2733 /* ippi Softphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ippi Softphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED1DE432F4326DA00DF2733 /* ippi SoftphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ippi SoftphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED1DE4D2F4326DA00DF2733 /* ippi SoftphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ippi SoftphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED1DEC02F43D54000DF2733 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		5ED1DECA2F4499C800DF2733 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFF865C2F463FB30090F8B0 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5EFF86612F463FB30090F8B0 /* Exceptions for "NotificationServiceExtension" folder in "NotificationServiceExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5EFF865B2F463FB30090F8B0 /* NotificationServiceExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5ED1DE382F4326D900DF2733 /* ippi Softphone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ippi Softphone";
+			sourceTree = "<group>";
+		};
+		5ED1DE462F4326DA00DF2733 /* ippi SoftphoneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ippi SoftphoneTests";
+			sourceTree = "<group>";
+		};
+		5ED1DE502F4326DA00DF2733 /* ippi SoftphoneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ippi SoftphoneUITests";
+			sourceTree = "<group>";
+		};
+		5EFF865D2F463FB30090F8B0 /* NotificationServiceExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5EFF86612F463FB30090F8B0 /* Exceptions for "NotificationServiceExtension" folder in "NotificationServiceExtension" target */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED1DE332F4326D900DF2733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFF8CAC2F4A08D90090F8B0 /* FirebaseCrashlytics in Frameworks */,
+				5ED1DEB72F4331C100DF2733 /* linphonesw in Frameworks */,
+				5ED1DEC72F44587700DF2733 /* PhoneNumberKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE402F4326DA00DF2733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE4A2F4326DA00DF2733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFF86592F463FB30090F8B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED1DE2D2F4326D900DF2733 = {
+			isa = PBXGroup;
+			children = (
+				5ED1DE382F4326D900DF2733 /* ippi Softphone */,
+				5ED1DE462F4326DA00DF2733 /* ippi SoftphoneTests */,
+				5ED1DE502F4326DA00DF2733 /* ippi SoftphoneUITests */,
+				5EFF865D2F463FB30090F8B0 /* NotificationServiceExtension */,
+				5ED1DE372F4326D900DF2733 /* Products */,
+				5ED1DEC02F43D54000DF2733 /* Localizable.xcstrings */,
+				5ED1DEC52F44587700DF2733 /* Frameworks */,
+				5ED1DECA2F4499C800DF2733 /* LaunchScreen.storyboard */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED1DE372F4326D900DF2733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED1DE362F4326D900DF2733 /* ippi Softphone.app */,
+				5ED1DE432F4326DA00DF2733 /* ippi SoftphoneTests.xctest */,
+				5ED1DE4D2F4326DA00DF2733 /* ippi SoftphoneUITests.xctest */,
+				5EFF865C2F463FB30090F8B0 /* NotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED1DEC52F44587700DF2733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED1DE352F4326D900DF2733 /* ippi Softphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED1DE572F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi Softphone" */;
+			buildPhases = (
+				5ED1DE322F4326D900DF2733 /* Sources */,
+				5ED1DE332F4326D900DF2733 /* Frameworks */,
+				5ED1DE342F4326D900DF2733 /* Resources */,
+				5EFF86692F4643170090F8B0 /* Embed Foundation Extensions */,
+				5EFF8CAF2F4A09EA0090F8B0 /* Upload dSYMs to Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EFF86682F4643170090F8B0 /* PBXTargetDependency */,
+				5EFF866B2F46432E0090F8B0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ED1DE382F4326D900DF2733 /* ippi Softphone */,
+			);
+			name = "ippi Softphone";
+			packageProductDependencies = (
+				5ED1DEB62F4331C100DF2733 /* linphonesw */,
+				5ED1DEC62F44587700DF2733 /* PhoneNumberKit */,
+				5EFF8CAB2F4A08D90090F8B0 /* FirebaseCrashlytics */,
+			);
+			productName = "ippi Softphone";
+			productReference = 5ED1DE362F4326D900DF2733 /* ippi Softphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ED1DE422F4326DA00DF2733 /* ippi SoftphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED1DE5A2F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi SoftphoneTests" */;
+			buildPhases = (
+				5ED1DE3F2F4326DA00DF2733 /* Sources */,
+				5ED1DE402F4326DA00DF2733 /* Frameworks */,
+				5ED1DE412F4326DA00DF2733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED1DE452F4326DA00DF2733 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ED1DE462F4326DA00DF2733 /* ippi SoftphoneTests */,
+			);
+			name = "ippi SoftphoneTests";
+			packageProductDependencies = (
+			);
+			productName = "ippi SoftphoneTests";
+			productReference = 5ED1DE432F4326DA00DF2733 /* ippi SoftphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ED1DE4C2F4326DA00DF2733 /* ippi SoftphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED1DE5D2F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi SoftphoneUITests" */;
+			buildPhases = (
+				5ED1DE492F4326DA00DF2733 /* Sources */,
+				5ED1DE4A2F4326DA00DF2733 /* Frameworks */,
+				5ED1DE4B2F4326DA00DF2733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED1DE4F2F4326DA00DF2733 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5ED1DE502F4326DA00DF2733 /* ippi SoftphoneUITests */,
+			);
+			name = "ippi SoftphoneUITests";
+			packageProductDependencies = (
+			);
+			productName = "ippi SoftphoneUITests";
+			productReference = 5ED1DE4D2F4326DA00DF2733 /* ippi SoftphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5EFF865B2F463FB30090F8B0 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFF86622F463FB30090F8B0 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				5EFF86582F463FB30090F8B0 /* Sources */,
+				5EFF86592F463FB30090F8B0 /* Frameworks */,
+				5EFF865A2F463FB30090F8B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5EFF865D2F463FB30090F8B0 /* NotificationServiceExtension */,
+			);
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+			);
+			productName = NotificationServiceExtension;
+			productReference = 5EFF865C2F463FB30090F8B0 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED1DE2E2F4326D900DF2733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					5ED1DE352F4326D900DF2733 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					5ED1DE422F4326DA00DF2733 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 5ED1DE352F4326D900DF2733;
+					};
+					5ED1DE4C2F4326DA00DF2733 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 5ED1DE352F4326D900DF2733;
+					};
+					5EFF865B2F463FB30090F8B0 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 5ED1DE312F4326D900DF2733 /* Build configuration list for PBXProject "ippi Softphone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED1DE2D2F4326D900DF2733;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5ED1DEB52F4331C100DF2733 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */,
+				5ED1DEC42F4457D000DF2733 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */,
+				5EFF8CAA2F4A08D90090F8B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5ED1DE372F4326D900DF2733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED1DE352F4326D900DF2733 /* ippi Softphone */,
+				5ED1DE422F4326DA00DF2733 /* ippi SoftphoneTests */,
+				5ED1DE4C2F4326DA00DF2733 /* ippi SoftphoneUITests */,
+				5EFF865B2F463FB30090F8B0 /* NotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED1DE342F4326D900DF2733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED1DECB2F4499C800DF2733 /* LaunchScreen.storyboard in Resources */,
+				5ED1DEC12F43D54000DF2733 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE412F4326DA00DF2733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE4B2F4326DA00DF2733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFF865A2F463FB30090F8B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFF86652F4642A90090F8B0 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EFF8CAF2F4A09EA0090F8B0 /* Upload dSYMs to Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(SRCROOT)/$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+				"$(SRCROOT)/ippi Softphone/GoogleService-Info.plist",
+			);
+			name = "Upload dSYMs to Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\n    \"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\" -gsp \"${SRCROOT}/ippi Softphone/GoogleService-Info.plist\"\n  fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED1DE322F4326D900DF2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE3F2F4326DA00DF2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED1DE492F4326DA00DF2733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFF86582F463FB30090F8B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED1DE452F4326DA00DF2733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED1DE352F4326D900DF2733 /* ippi Softphone */;
+			targetProxy = 5ED1DE442F4326DA00DF2733 /* PBXContainerItemProxy */;
+		};
+		5ED1DE4F2F4326DA00DF2733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED1DE352F4326D900DF2733 /* ippi Softphone */;
+			targetProxy = 5ED1DE4E2F4326DA00DF2733 /* PBXContainerItemProxy */;
+		};
+		5EFF86682F4643170090F8B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFF865B2F463FB30090F8B0 /* NotificationServiceExtension */;
+			targetProxy = 5EFF86672F4643170090F8B0 /* PBXContainerItemProxy */;
+		};
+		5EFF866B2F46432E0090F8B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EFF865B2F463FB30090F8B0 /* NotificationServiceExtension */;
+			targetProxy = 5EFF866A2F46432E0090F8B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ED1DE552F4326DA00DF2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ED1DE562F4326DA00DF2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED1DE582F4326DA00DF2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ippi Softphone/ippi Softphone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79W2NEHLC6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ippi-Softphone-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ippi Softphone";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSContactsUsageDescription = "ippi a besoin d​'accéder à vos contacts pour afficher leur noms dans le répertoire.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ippi a besoin du microphone pour passer et recevoir des appels.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ippi.softphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED1DE592F4326DA00DF2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ippi Softphone/ippi Softphone.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79W2NEHLC6;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ippi-Softphone-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ippi Softphone";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSContactsUsageDescription = "ippi a besoin d​'accéder à vos contacts pour afficher leur noms dans le répertoire.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ippi a besoin du microphone pour passer et recevoir des appels.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ippi.softphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ED1DE5B2F4326DA00DF2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LVBB35BTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "worldline.ippi-SoftphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ippi Softphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ippi Softphone";
+			};
+			name = Debug;
+		};
+		5ED1DE5C2F4326DA00DF2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LVBB35BTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "worldline.ippi-SoftphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ippi Softphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ippi Softphone";
+			};
+			name = Release;
+		};
+		5ED1DE5E2F4326DA00DF2733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "worldline.ippi-SoftphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ippi Softphone";
+			};
+			name = Debug;
+		};
+		5ED1DE5F2F4326DA00DF2733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "worldline.ippi-SoftphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ippi Softphone";
+			};
+			name = Release;
+		};
+		5EFF86632F463FB30090F8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79W2NEHLC6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ippi.softphone.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5EFF86642F463FB30090F8B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79W2NEHLC6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ippi.softphone.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED1DE312F4326D900DF2733 /* Build configuration list for PBXProject "ippi Softphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1DE552F4326DA00DF2733 /* Debug */,
+				5ED1DE562F4326DA00DF2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED1DE572F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi Softphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1DE582F4326DA00DF2733 /* Debug */,
+				5ED1DE592F4326DA00DF2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED1DE5A2F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi SoftphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1DE5B2F4326DA00DF2733 /* Debug */,
+				5ED1DE5C2F4326DA00DF2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED1DE5D2F4326DA00DF2733 /* Build configuration list for PBXNativeTarget "ippi SoftphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED1DE5E2F4326DA00DF2733 /* Debug */,
+				5ED1DE5F2F4326DA00DF2733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFF86622F463FB30090F8B0 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFF86632F463FB30090F8B0 /* Debug */,
+				5EFF86642F463FB30090F8B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5ED1DEB52F4331C100DF2733 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://gitlab.linphone.org/BC/public/linphone-sdk-swift-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.86;
+			};
+		};
+		5ED1DEC42F4457D000DF2733 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/PhoneNumberKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.5;
+			};
+		};
+		5EFF8CAA2F4A08D90090F8B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5ED1DEB62F4331C100DF2733 /* linphonesw */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ED1DEB52F4331C100DF2733 /* XCRemoteSwiftPackageReference "linphone-sdk-swift-ios" */;
+			productName = linphonesw;
+		};
+		5ED1DEC62F44587700DF2733 /* PhoneNumberKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5ED1DEC42F4457D000DF2733 /* XCRemoteSwiftPackageReference "PhoneNumberKit" */;
+			productName = PhoneNumberKit;
+		};
+		5EFF8CAB2F4A08D90090F8B0 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EFF8CAA2F4A08D90090F8B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5ED1DE2E2F4326D900DF2733 /* Project object */;
+}

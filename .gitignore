@@ -1,0 +1,9 @@
+.DS_Store
+build/
+xcuserdata/
+*.xcuserstate
+*.pen
+
+# Secrets — copy from .example files and fill in your values
+ippi Softphone/Utilities/Secrets.swift
+ippi Softphone/GoogleService-Info.plist
