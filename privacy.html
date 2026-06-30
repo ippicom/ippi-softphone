@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — ippi Softphone</title>
+<meta name="robots" content="index,follow">
+<style>
+  :root { --fg:#1d1d1f; --muted:#6e6e73; --accent:#0a7d3c; --line:#e5e5ea; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--fg); background: var(--bg); line-height: 1.6;
+    max-width: 760px; margin: 0 auto; padding: 40px 22px 80px;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.25rem; margin: 2.2em 0 .4em; padding-top: .6em; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 1.4em 0 .3em; }
+  .updated { color: var(--muted); font-size: .92rem; margin-bottom: 1.6em; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f7; }
+  ul { padding-left: 1.3em; }
+  code { background: #f5f5f7; padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3em; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+
+<h1>Politique de confidentialité — ippi Softphone</h1>
+<p class="updated">Dernière mise à jour : 29 juin 2026</p>
+
+<p>La présente politique de confidentialité décrit comment l'application <strong>ippi Softphone</strong> (« l'Application ») traite vos données personnelles. La Société attache une grande importance à la protection de votre vie privée et limite la collecte de données au strict nécessaire au fonctionnement de l'Application.</p>
+
+<h2>1. Responsable du traitement</h2>
+<p>L'Application est éditée par <strong>ippi / Worldline Communication</strong> (« la Société »).</p>
+<ul>
+  <li>Adresse : ippi – Worldline Communication, 128 rue La Boétie, 75008 Paris, France</li>
+  <li>Contact (vie privée) : <a href="mailto:privacy@ippi.com">privacy@ippi.com</a></li>
+</ul>
+
+<h2>2. Données collectées</h2>
+
+<h3>2.1. Identifiant de compte (login SIP)</h3>
+<p>Pour vous connecter et passer/recevoir des appels, vous saisissez les identifiants de votre compte ippi. Votre <strong>identifiant (login)</strong> est transmis aux serveurs de la Société pour l'enregistrement SIP et pour l'activation des notifications d'appel.</p>
+
+<h3>2.2. Jeton de notification (push VoIP)</h3>
+<p>Pour vous signaler les appels entrants même lorsque l'Application est en arrière-plan ou fermée, la Société transmet à ses serveurs un <strong>jeton de notification (token push)</strong> propre à votre appareil, associé à votre identifiant.</p>
+
+<h3>2.3. Données de diagnostic et rapports de plantage</h3>
+<p>Afin d'améliorer la stabilité de l'Application, la Société utilise <strong>Firebase Crashlytics</strong> (fourni par Google) qui collecte, en cas de dysfonctionnement :</p>
+<ul>
+  <li>des <strong>données de plantage</strong> (pile d'appels, type d'appareil, version d'iOS, version de l'app) ;</li>
+  <li>des <strong>données de diagnostic</strong> sur l'état de l'application au moment de l'incident (par ex. état de la connexion SIP, état d'appel, type de sortie audio) ;</li>
+  <li>un <strong>identifiant</strong> correspondant à votre login SIP, afin de relier un rapport à un compte pour le support.</li>
+</ul>
+<p>Ces données sont liées à votre identité mais <strong>ne sont jamais utilisées à des fins publicitaires ni de suivi</strong>.</p>
+
+<h3>2.4. Données qui restent sur votre appareil</h3>
+<p>Les données suivantes <strong>ne quittent pas votre appareil</strong> et ne sont pas transmises à la Société :</p>
+<ul>
+  <li><strong>Vos contacts</strong> : lus uniquement pour afficher le nom de vos correspondants. Aucun contact n'est téléversé.</li>
+  <li><strong>Votre mot de passe</strong> : conservé de façon sécurisée dans le <strong>Trousseau iOS</strong>. Il n'est jamais transmis en clair ; seule une empreinte cryptographique (hash) est utilisée pour l'authentification des notifications.</li>
+</ul>
+
+<h3>2.5. Données d'appel</h3>
+<p>Les numéros que vous composez et le contenu de vos appels transitent par les serveurs de la Société <strong>uniquement</strong> pour acheminer la communication (comme un opérateur téléphonique). La signalisation (TLS) et, en option, le média (SRTP) sont chiffrés <strong>en transit entre l'Application et les serveurs de la Société</strong>. Il s'agit d'un chiffrement de transport, et non d'un chiffrement de bout en bout entre correspondants.</p>
+
+<h3>2.6. Enregistrements d'appel (côté serveur)</h3>
+<p>En tant qu'opérateur, la Société conserve sur ses serveurs des enregistrements d'appel (date, durée, numéros appelés/appelants) nécessaires à la fourniture du service, à la facturation et au respect de ses obligations légales de conservation.</p>
+
+<h2>3. Finalités et bases légales (RGPD)</h2>
+<table>
+  <tr><th>Donnée</th><th>Finalité</th><th>Base légale</th></tr>
+  <tr><td>Identifiant de compte</td><td>Enregistrement SIP, émission/réception d'appels</td><td>Exécution du contrat</td></tr>
+  <tr><td>Jeton de notification</td><td>Notifier les appels entrants</td><td>Exécution du contrat</td></tr>
+  <tr><td>Données de diagnostic / plantage</td><td>Stabilité et qualité de l'Application</td><td>Intérêt légitime</td></tr>
+  <tr><td>Enregistrements d'appel (côté serveur)</td><td>Fourniture du service, facturation, conservation légale</td><td>Exécution du contrat / Obligation légale</td></tr>
+</table>
+<p>La Société <strong>ne réalise aucun suivi publicitaire</strong>, n'affiche aucune publicité et ne vend aucune donnée.</p>
+
+<h2>4. Partage avec des tiers</h2>
+<ul>
+  <li><strong>Google (Firebase Crashlytics)</strong> : traite pour le compte de la Société les données de plantage et de diagnostic décrites au point 2.3. Voir la politique de confidentialité de Google : <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+</ul>
+<p>La Société ne partage vos données avec aucun autre tiers.</p>
+
+<h2>5. Transferts hors Union européenne</h2>
+<p>Les données de diagnostic traitées par Google peuvent être transférées en dehors de l'Union européenne. Ces transferts sont encadrés par les garanties appropriées prévues par le RGPD (clauses contractuelles types).</p>
+
+<h2>6. Durée de conservation</h2>
+<ul>
+  <li><strong>Identifiant et jeton de notification</strong> : conservés tant que votre compte est actif / que les notifications sont activées. Le jeton est supprimé des serveurs de la Société lorsque vous désactivez les notifications ou vous déconnectez.</li>
+  <li><strong>Données de plantage</strong> : conservées de façon limitée dans le temps par Firebase Crashlytics (généralement 90 jours).</li>
+  <li><strong>Enregistrements d'appel (côté serveur)</strong> : conservés conformément aux obligations légales de conservation applicables aux opérateurs de communications électroniques.</li>
+  <li><strong>Données locales</strong> (contacts) : conservées sur votre appareil jusqu'à suppression par vos soins ou désinstallation de l'Application.</li>
+</ul>
+
+<h2>7. Sécurité</h2>
+<ul>
+  <li>Signalisation SIP chiffrée via <strong>TLS</strong> entre l'Application et les serveurs de la Société.</li>
+  <li>Chiffrement optionnel du média via <strong>SRTP</strong> entre l'Application et les serveurs de la Société.</li>
+  <li>Identifiants stockés dans le <strong>Trousseau iOS</strong>.</li>
+</ul>
+
+<h2>8. Vos droits</h2>
+<p>Conformément au RGPD, vous disposez des droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité concernant vos données personnelles. Pour les exercer, contactez la Société à : <a href="mailto:privacy@ippi.com">privacy@ippi.com</a> (ou par courrier : ippi – Worldline Communication, 128 rue La Boétie, 75008 Paris, France).</p>
+<p>Vous pouvez également introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
+
+<h2>9. Données des enfants</h2>
+<p>L'Application n'est pas destinée aux personnes de moins de 16 ans et la Société ne collecte pas sciemment leurs données.</p>
+
+<h2>10. Modifications</h2>
+<p>La Société peut mettre à jour la présente politique. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour.</p>
+
+<h2>11. Contact</h2>
+<p>Pour toute question relative à cette politique de confidentialité : <a href="mailto:privacy@ippi.com">privacy@ippi.com</a></p>
+
+<footer>© 2007–2026 ippi / Worldline Communication</footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ippi Softphone</title>
+<meta name="robots" content="index,follow">
+<style>
+  :root { --fg:#1d1d1f; --muted:#6e6e73; --accent:#0a7d3c; --line:#e5e5ea; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--fg); background: var(--bg); line-height: 1.6;
+    max-width: 760px; margin: 0 auto; padding: 40px 22px 80px;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.25rem; margin: 2.2em 0 .4em; padding-top: .6em; border-top: 1px solid var(--line); }
+  h3 { font-size: 1.05rem; margin: 1.4em 0 .3em; }
+  .updated { color: var(--muted); font-size: .92rem; margin-bottom: 1.6em; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .95rem; }
+  th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f7; }
+  ul { padding-left: 1.3em; }
+  code { background: #f5f5f7; padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  footer { margin-top: 3em; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — ippi Softphone</h1>
+<p class="updated">Last updated: 29 June 2026</p>
+
+<p>This privacy policy explains how the <strong>ippi Softphone</strong> application (the "App") processes your personal data. The Company cares deeply about protecting your privacy and limits data collection to what is strictly necessary for the App to function.</p>
+
+<h2>1. Data controller</h2>
+<p>The App is published by <strong>ippi / Worldline Communication</strong> (the "Company").</p>
+<ul>
+  <li>Address: ippi – Worldline Communication, 128 rue La Boétie, 75008 Paris, France</li>
+  <li>Privacy contact: <a href="mailto:privacy@ippi.com">privacy@ippi.com</a></li>
+</ul>
+
+<h2>2. Data collected</h2>
+
+<h3>2.1. Account identifier (SIP login)</h3>
+<p>To sign in and place/receive calls, you enter your ippi account credentials. Your <strong>login (identifier)</strong> is sent to the Company's servers for SIP registration and to enable call notifications.</p>
+
+<h3>2.2. Notification token (VoIP push)</h3>
+<p>To alert you to incoming calls even when the App is in the background or closed, the Company sends its servers a <strong>push notification token</strong> that is specific to your device and associated with your identifier.</p>
+
+<h3>2.3. Diagnostic data and crash reports</h3>
+<p>To improve the App's stability, the Company uses <strong>Firebase Crashlytics</strong> (provided by Google), which collects, in the event of a malfunction:</p>
+<ul>
+  <li><strong>crash data</strong> (stack trace, device model, iOS version, app version);</li>
+  <li><strong>diagnostic data</strong> about the state of the app at the time of the incident (e.g. SIP connection state, call state, audio output route);</li>
+  <li>an <strong>identifier</strong> corresponding to your SIP login, in order to link a report to an account for support purposes.</li>
+</ul>
+<p>This data is linked to your identity but is <strong>never used for advertising or tracking</strong>.</p>
+
+<h3>2.4. Data that stays on your device</h3>
+<p>The following data <strong>does not leave your device</strong> and is not transmitted to the Company:</p>
+<ul>
+  <li><strong>Your contacts</strong>: read only to display the names of your correspondents. No contact is uploaded.</li>
+  <li><strong>Your password</strong>: stored securely in the <strong>iOS Keychain</strong>. It is never transmitted in clear text; only a cryptographic hash is used to authenticate notifications.</li>
+</ul>
+
+<h3>2.5. Call data</h3>
+<p>The numbers you dial and the content of your calls pass through the Company's servers <strong>only</strong> to route the communication (like a telephone carrier). Signaling (TLS) and, optionally, media (SRTP) are encrypted <strong>in transit between the App and the Company's servers</strong>. This is transport encryption, not end-to-end encryption between correspondents.</p>
+
+<h3>2.6. Call records (server-side)</h3>
+<p>As an operator, the Company keeps call records (date, duration, calling/called numbers) on its servers, as necessary to provide the service, for billing, and to comply with its legal retention obligations.</p>
+
+<h2>3. Purposes and legal bases (GDPR)</h2>
+<table>
+  <tr><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+  <tr><td>Account identifier</td><td>SIP registration, placing/receiving calls</td><td>Performance of a contract</td></tr>
+  <tr><td>Notification token</td><td>Notifying incoming calls</td><td>Performance of a contract</td></tr>
+  <tr><td>Diagnostic / crash data</td><td>App stability and quality</td><td>Legitimate interest</td></tr>
+  <tr><td>Call records (server-side)</td><td>Service provision, billing, legal retention</td><td>Performance of a contract / Legal obligation</td></tr>
+</table>
+<p>The Company performs <strong>no advertising tracking</strong>, displays no advertising, and sells no data.</p>
+
+<h2>4. Sharing with third parties</h2>
+<ul>
+  <li><strong>Google (Firebase Crashlytics)</strong>: processes, on the Company's behalf, the crash and diagnostic data described in section 2.3. See Google's privacy policy: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+</ul>
+<p>The Company does not share your data with any other third party.</p>
+
+<h2>5. Transfers outside the European Union</h2>
+<p>Diagnostic data processed by Google may be transferred outside the European Union. Such transfers are governed by the appropriate safeguards provided for by the GDPR (standard contractual clauses).</p>
+
+<h2>6. Data retention</h2>
+<ul>
+  <li><strong>Identifier and notification token</strong>: kept for as long as your account is active / notifications are enabled. The token is deleted from the Company's servers when you disable notifications or sign out.</li>
+  <li><strong>Crash data</strong>: kept for a limited period by Firebase Crashlytics (generally 90 days).</li>
+  <li><strong>Call records (server-side)</strong>: kept in accordance with the legal retention obligations applicable to electronic communications operators.</li>
+  <li><strong>Local data</strong> (contacts): kept on your device until you delete it or uninstall the App.</li>
+</ul>
+
+<h2>7. Security</h2>
+<ul>
+  <li>SIP signaling encrypted via <strong>TLS</strong> between the App and the Company's servers.</li>
+  <li>Optional media encryption via <strong>SRTP</strong> between the App and the Company's servers.</li>
+  <li>Credentials stored in the <strong>iOS Keychain</strong>.</li>
+</ul>
+
+<h2>8. Your rights</h2>
+<p>In accordance with the GDPR, you have the rights of access, rectification, erasure, restriction, objection and portability regarding your personal data. To exercise them, contact the Company at: <a href="mailto:privacy@ippi.com">privacy@ippi.com</a> (or by post: ippi – Worldline Communication, 128 rue La Boétie, 75008 Paris, France).</p>
+<p>You may also lodge a complaint with the CNIL (the French data protection authority, <a href="https://www.cnil.fr">www.cnil.fr</a>).</p>
+
+<h2>9. Children's data</h2>
+<p>The App is not intended for persons under the age of 16, and the Company does not knowingly collect their data.</p>
+
+<h2>10. Changes</h2>
+<p>The Company may update this policy. Any change will be published on this page with a new "last updated" date.</p>
+
+<h2>11. Contact</h2>
+<p>For any question regarding this privacy policy: <a href="mailto:privacy@ippi.com">privacy@ippi.com</a></p>
+
+<footer>© 2007–2026 ippi / Worldline Communication</footer>
+
+</body>
+</html>
